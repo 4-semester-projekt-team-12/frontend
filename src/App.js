@@ -1,5 +1,5 @@
-import Heading from './components/Heading'
-import Footing from './components/Footing'
+import Header from './components/Header'
+import Footer from './components/Footer'
 import Calendar from './components/Calendar'
 import Announcements from './components/Announcements'
 import Files from './components/Files'
@@ -8,7 +8,7 @@ import Rooms from './components/Rooms'
 function App() {
   return (
     <div>
-      <Heading />
+      <Header />
     <div className="grid-container">
       <Announcements />
       <Calendar />
@@ -16,7 +16,7 @@ function App() {
       <Rooms />
       </div>
 
-      <Footing />
+      <Footer />
     </div>
   );
 }
