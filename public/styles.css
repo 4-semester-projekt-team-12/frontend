@@ -1,0 +1,56 @@
+.grid-container {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: 16px;
+  padding: 16px;
+  justify-items: center;
+  align-items: center;
+}
+
+.announcements {
+  background-color: #f9f9f9;
+  border: 1px solid #eee;
+  padding: 12px;
+  margin-bottom: 12px;
+  height: 20em;
+  width: 20em;
+  justify-content: space-around;
+  box-shadow: 0 4px 12px rgba(0,0,0,0.12);
+  border-radius: 16px;
+}
+
+.calendar {
+  background-color: #f9f9f9;
+  border: 1px solid #eee;
+  padding: 12px;
+  margin-bottom: 12px;
+  height: 20em;
+  width: 20em;
+  justify-content: space-around;
+  box-shadow: 0 4px 12px rgba(0,0,0,0.12);
+  border-radius: 16px;
+}
+
+.files {
+  background-color: #f9f9f9;
+  border: 1px solid #eee;
+  padding: 12px;
+  margin-bottom: 12px;
+  height: 20em;
+  width: 20em;
+  justify-content: space-around;
+  box-shadow: 0 4px 12px rgba(0,0,0,0.12);
+  border-radius: 16px;
+}
+
+.rooms {
+  background-color: #f9f9f9;
+  border: 1px solid #eee;
+  padding: 12px;
+  margin-bottom: 12px;
+  height: 20em;
+  width: 20em;
+  justify-content: space-around;
+  box-shadow: 0 4px 12px rgba(0,0,0,0.12);
+  border-radius: 16px;
+}
