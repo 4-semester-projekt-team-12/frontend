@@ -9,12 +9,12 @@ function App() {
   return (
     <div>
       <Header />
+      <Rooms />
     <div className="grid-container">
       <Announcements />
       <Calendar />
       <Files />
-      <Rooms />
-      </div>
+    </div>
 
       <Footer />
     </div>
