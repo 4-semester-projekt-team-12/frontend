@@ -1,19 +1,19 @@
-import Header from './components/Header'
+import Header from './components/Header';
 import Footer from './components/Footer'
-import Calendar from './components/Calendar'
-import Announcements from './components/Announcements'
-import Files from './components/Files'
-import Rooms from './components/Rooms'
+import AnnouncementComponent from './components/AnnouncementComponent'
+import FileComponent from './components/FileComponent'
+import RoomComponent from './components/RoomComponent'
+import CalendarComponent from './components/CalendarComponent'
 
 function App() {
   return (
     <div>
       <Header />
-      <Rooms />
+      <RoomComponent />
     <div className="grid-container">
-      <Announcements />
-      <Calendar />
-      <Files />
+      <AnnouncementComponent />
+      <CalendarComponent />
+      <FileComponent />
     </div>
 
       <Footer />
