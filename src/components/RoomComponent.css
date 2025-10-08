@@ -1,0 +1,11 @@
+.roomComponent {
+  background-color: #f9f9f9;
+  border: 1px solid #eee;
+  padding: 12px;
+  margin-bottom: 30px;
+  height: 5em;
+  width: 15em;
+  justify-content: space-around;
+  box-shadow: 0 4px 12px rgba(0,0,0,0.12);
+  border-radius: 16px;
+}
