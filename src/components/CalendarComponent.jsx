@@ -10,8 +10,8 @@ function CalendarComponent() {
         plugins={[ DayGridPlugin ]}
         initialView="dayGridMonth"
         events={[
-          { title: 'Event 1', date: '2023-10-01' },
-          { title: 'Event 2', date: '2023-10-02' }
+          { title: 'Event 1', date: '2025-10-11' },
+          { title: 'Event 2', date: '2025-10-12' }
         ]}
       />
     </div>
