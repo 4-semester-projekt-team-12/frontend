@@ -1,7 +1,36 @@
 .grid-container {
   display: grid;
-  grid-template-columns: 1fr 1fr 1fr;
-  gap: 16px;
-  padding: 16px;
-  justify-items: center;
+  grid-template-columns: minmax(0, 1fr) minmax(0, 1fr);
+  grid-template-areas:
+    "rooms ."
+    "announcement announcement"
+    "calendar files";
+  gap: 24px;
+  padding: 24px;
+  align-items: start;
+  justify-content: center;
+}
+
+.grid-container > .roomComponent {
+  grid-area: rooms;
+  justify-self: start;
+  margin: 0;
+}
+
+.grid-container > .announcementComponent {
+  grid-area: announcement;
+  justify-self: center;
+  margin: 0;
+}
+
+.grid-container > .calendarComponent {
+  grid-area: calendar;
+  justify-self: center;
+  margin: 0;
+}
+
+.grid-container > .fileComponent {
+  grid-area: files;
+  justify-self: center;
+  margin: 0;
 }
